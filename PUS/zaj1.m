@@ -87,3 +87,30 @@ for TzewN=-30:10:10
     hold on
 end
 
+QgN=20000;
+TzewN=-20;
+T1N=20;
+T2N=15;
+dqg=0;
+dTzew=0;
+ro=1.2;
+cp=1005;
+v1=90;
+v2=30;
+
+Ks2=QgN/(3*(T1N-TzewN)+T2N-TzewN)
+Ks1=3*Ks2
+Ks0=(Ks2*(T2N-TzewN))/(T1N-T2N)
+
+steptime=10;
+Qfinalvalue=QgN+dqg;
+Tzewfinalvalue=TzewN+dTzew;
+tw1intinit=T1N;
+tw2intinit=T2N;
+
+
+cv1=ro*cp*v1;
+cv2=ro*cp*v2;
+
+
+sim('zaj3simulink.slx',1000);

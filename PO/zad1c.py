@@ -1,24 +1,23 @@
 import numpy as np
 
-def gaus_seidl(A,B,n):
+def jacobi(A,B,n):
 
-    print("\n\nMetoda Gausa-Seidla\n")
+    print("\n\nMetoda Jacobiego\n")
 
     x=np.zeros((n,1))
     xy=np.zeros((n,1))
     iterations=100
 
-
     for k in range(iterations):
+        #print("iteration ",k,"\n")
         for i in range(n):
             sum=0
             for j in range(n):
-                if not(j==i): 
-                    sum=sum+A[i,j]*x[j]               
+                if not(j==i):
+                    sum=sum+A[i,j]*x[j]
             xy[i]=-1/A[i,i]*(sum-B[i])
-
         x=xy
-
+    
 
     print("rozwiazanie: \n",x)
 
@@ -34,13 +33,13 @@ B=np.zeros((n,1))
 for i in range(n):
     for j in range(n):
         print("A[",i,"][",j,"]: ")
-        A[i][j]=int(input())
+        A[i][j]=float(input())
 
 
 for i in range(n):
     print("B[",i,"]: ")
-    B[i]=int(input())
+    B[i]=float(input())
 
 print("A: \n",A)
 print("B: \n",B)
-gaus_seidl(A,B,n)
+jacobi(A,B,n)

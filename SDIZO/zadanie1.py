@@ -11,7 +11,7 @@ clear = lambda: os.system('cls')
 clear()
 
 
-def quick_sort(dane):
+def data_sort(dane):
     dlugosc=len(dane)
     if dlugosc <= 1:
         return dane
@@ -26,9 +26,9 @@ def quick_sort(dane):
         else:
             mniejszy.append(i)
 
-    return quick_sort(mniejszy)+[pivot]+quick_sort(wiekszy)
+    return data_sort(mniejszy)+[pivot]+data_sort(wiekszy)
 #----------------------------------------------
-def policz_srednia(dane):
+def calc_mean(dane):
 
     suma=0
     for i in range(len(dane)):
@@ -38,7 +38,7 @@ def policz_srednia(dane):
 
     return srednia
 #----------------------------------------------
-def gdzie_jest_min(dane):
+def calc_min(dane):
     najmniejsza=dane[0]
     for i in range(len(dane)):
         
@@ -47,7 +47,7 @@ def gdzie_jest_min(dane):
 
     return najmniejsza
 #----------------------------------------------
-def gdzie_jest_max(dane):
+def calc_max(dane):
     najwieksza=dane[0]
     for i in range(len(dane)):
         
@@ -56,7 +56,7 @@ def gdzie_jest_max(dane):
 
     return najwieksza
 #----------------------------------------------
-def policz_mediana(dane):
+def calc_median(dane):
     length=(len(dane)-1)/2
     if len(dane)%2==0:
         mediana=(dane[math.ceil(length)]+dane[int(length)])/2
@@ -82,7 +82,7 @@ def calculate_menu(dane,wyjscie,czasy,wejscie1,n):
 
         #liczenie sredniej arytmetycznej
         start = time()
-        srednia_arytm=float(policz_srednia(dane))
+        srednia_arytm=float(calc_mean(dane))
         print("srednia artymetycznad: ",srednia_arytm)
         end = time()
         czas_srednia_arytm=(end - start)*1000
@@ -101,7 +101,7 @@ def calculate_menu(dane,wyjscie,czasy,wejscie1,n):
     elif operacja==2:
         #liczenie wartosci min
         start = time()
-        wartosc_min=float(gdzie_jest_min(dane))
+        wartosc_min=float(calc_min(dane))
         print("min: ",wartosc_min)
         end = time()
         czas_min=(end - start)*1000
@@ -119,7 +119,7 @@ def calculate_menu(dane,wyjscie,czasy,wejscie1,n):
     elif operacja==3:
         #liczenie wartosci max
         start = time()
-        wartosc_max=float(gdzie_jest_max(dane))
+        wartosc_max=float(calc_max(dane))
         print("max: ",wartosc_max)
         end = time()
         czas_max=(end - start)*1000
@@ -137,8 +137,8 @@ def calculate_menu(dane,wyjscie,czasy,wejscie1,n):
     elif operacja==4:
         #liczenie mediany
         start = time()
-        dane_posortowane=quick_sort(dane.tolist())
-        wartosc_mediana=float(policz_mediana(np.array(dane_posortowane)))
+        dane_posortowane=data_sort(dane.tolist())
+        wartosc_mediana=float(calc_median(np.array(dane_posortowane)))
         print("mediana: ",wartosc_mediana)
         end = time()
         czas_mediana=(end - start)*1000
