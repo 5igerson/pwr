@@ -1,0 +1,38 @@
+#include <wiringPi.h>
+#include <wiringPiI2C.h>
+#include <softPwm.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+int main (void)
+{
+
+printf("Praca studentow: 241818 oraz 249162 - 10.04.2021\n");
+
+//inicjowanie zmiennych    
+int fd;
+int adressMPU6050=0x69;
+int dane;
+
+if(wiringPiSetup() == -1)
+exit(1);
+
+if((fd=wiringPiI2CSetup(adressMPU6050)) == -1){
+printf("error initialize I2C");
+exit(1);
+}
+
+printf("I2C modul MPU6050\r\n");
+
+//ustawianie adresu do odczytania wartosci
+int regWho=0x75;//<<---- podac adres rejestru Who Am I
+
+//odczytywanie wartosci z rejestru
+dane = wiringPiI2CReadReg8(fd,regWho);
+
+printf("Wartosc w rejestrze Who_I_AM: %d\r\n",dane);
+
+return 0;
+
+}

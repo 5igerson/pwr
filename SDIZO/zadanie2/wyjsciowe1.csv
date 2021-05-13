@@ -1,0 +1,288 @@
+algorytm;bubble sort;ilosc instancji;1000;czas wykonania;79,22029495
+algorytm;bubble sort;ilosc instancji;2000;czas wykonania;261,7151737
+algorytm;bubble sort;ilosc instancji;3000;czas wykonania;599,9038219
+algorytm;bubble sort;ilosc instancji;4000;czas wykonania;1078,316212
+algorytm;bubble sort;ilosc instancji;5000;czas wykonania;1809,274673
+algorytm;bubble sort;ilosc instancji;6000;czas wykonania;2474,774122
+algorytm;bubble sort;ilosc instancji;7000;czas wykonania;3391,659975
+algorytm;bubble sort;ilosc instancji;8000;czas wykonania;4821,849823
+algorytm;bubble sort;ilosc instancji;9000;czas wykonania;5811,697006
+algorytm;bubble sort;ilosc instancji;10000;czas wykonania;7302,327633
+algorytm;bubble sort;ilosc instancji;10000;czas wykonania;7021,56496
+algorytm;bubble sort;ilosc instancji;20000;czas wykonania;31886,82914
+algorytm;bubble sort;ilosc instancji;10000;czas wykonania;8868,865252
+algorytm;bubble sort;ilosc instancji;20000;czas wykonania;29640,02752
+algorytm;bubble sort;ilosc instancji;30000;czas wykonania;67819,16213
+algorytm;bubble sort;ilosc instancji;40000;czas wykonania;127228,6189
+algorytm;bubble sort;ilosc instancji;50000;czas wykonania;207305,1505
+algorytm;bubble sort;ilosc instancji;60000;czas wykonania;328399,5469
+algorytm;counting sort;ilosc instancji;100;czas wykonania;0,999450684
+algorytm;counting sort;ilosc instancji;1000;czas wykonania;2,993583679
+algorytm;counting sort;ilosc instancji;5000;czas wykonania;21,9938755
+algorytm;counting sort;ilosc instancji;10000;czas wykonania;52,27351189
+algorytm;counting sort;ilosc instancji;50000;czas wykonania;745,8920479
+algorytm;counting sort;ilosc instancji;75000;czas wykonania;1575,453758
+algorytm;counting sort;ilosc instancji;100000;czas wykonania;2683,106422
+algorytm;counting sort;ilosc instancji;100000;czas wykonania;2636,474133
+algorytm;counting sort;ilosc instancji;200000;czas wykonania;2675,2069
+algorytm;counting sort;ilosc instancji;250000;czas wykonania;2626,594067
+algorytm;counting sort;ilosc instancji;300000;czas wykonania;2604,947567
+algorytm;counting sort;ilosc instancji;400000;czas wykonania;2651,184559
+algorytm;counting sort;ilosc instancji;500000;czas wykonania;2646,720648
+algorytm;counting sort;ilosc instancji;600000;czas wykonania;2680,481195
+algorytm;counting sort;ilosc instancji;700000;czas wykonania;2672,44792
+algorytm;counting sort;ilosc instancji;750000;czas wykonania;2720,474243
+algorytm;counting sort;ilosc instancji;800000;czas wykonania;2642,767429
+algorytm;counting sort;ilosc instancji;900000;czas wykonania;2750,643492
+algorytm;counting sort;ilosc instancji;1000000;czas wykonania;2668,982983
+algorytm;counting sort;ilosc instancji;100;czas wykonania;0,997543335
+algorytm;counting sort;ilosc instancji;1000;czas wykonania;6,095170975
+algorytm;counting sort;ilosc instancji;5000;czas wykonania;20,95127106
+algorytm;counting sort;ilosc instancji;10000;czas wykonania;58,12263489
+algorytm;counting sort;ilosc instancji;50000;czas wykonania;732,8169346
+algorytm;counting sort;ilosc instancji;75000;czas wykonania;1573,805332
+algorytm;counting sort;ilosc instancji;100000;czas wykonania;2651,706219
+algorytm;counting sort;ilosc instancji;100000;czas wykonania;2638,620615
+algorytm;counting sort;ilosc instancji;200000;czas wykonania;2701,895714
+algorytm;counting sort;ilosc instancji;250000;czas wykonania;2645,577192
+algorytm;counting sort;ilosc instancji;300000;czas wykonania;2724,298716
+algorytm;counting sort;ilosc instancji;400000;czas wykonania;2645,045519
+algorytm;counting sort;ilosc instancji;500000;czas wykonania;2700,040817
+algorytm;counting sort;ilosc instancji;600000;czas wykonania;2676,443338
+algorytm;counting sort;ilosc instancji;700000;czas wykonania;2659,303904
+algorytm;counting sort;ilosc instancji;750000;czas wykonania;2673,855066
+algorytm;counting sort;ilosc instancji;800000;czas wykonania;2611,497402
+algorytm;counting sort;ilosc instancji;900000;czas wykonania;2695,461988
+algorytm;counting sort;ilosc instancji;1000000;czas wykonania;2624,145985
+algorytm;counting sort;ilosc instancji;1000;czas wykonania;3,988981247
+algorytm;counting sort;ilosc instancji;2000;czas wykonania;5,98359108
+algorytm;counting sort;ilosc instancji;3000;czas wykonania;13,96083832
+algorytm;counting sort;ilosc instancji;4000;czas wykonania;18,94927025
+algorytm;counting sort;ilosc instancji;5000;czas wykonania;25,92992783
+algorytm;counting sort;ilosc instancji;6000;czas wykonania;30,43079376
+algorytm;counting sort;ilosc instancji;7000;czas wykonania;32,9349041
+algorytm;counting sort;ilosc instancji;8000;czas wykonania;38,89012337
+algorytm;counting sort;ilosc instancji;9000;czas wykonania;48,86889458
+algorytm;counting sort;ilosc instancji;10000;czas wykonania;53,85613441
+algorytm;counting sort;ilosc instancji;10000;czas wykonania;50,86374283
+algorytm;counting sort;ilosc instancji;20000;czas wykonania;145,6120014
+algorytm;counting sort;ilosc instancji;30000;czas wykonania;297,9962826
+algorytm;counting sort;ilosc instancji;40000;czas wykonania;487,4219894
+algorytm;counting sort;ilosc instancji;50000;czas wykonania;715,0878906
+algorytm;counting sort;ilosc instancji;60000;czas wykonania;1028,527498
+algorytm;counting sort;ilosc instancji;70000;czas wykonania;1399,783611
+algorytm;counting sort;ilosc instancji;80000;czas wykonania;1741,285563
+algorytm;counting sort;ilosc instancji;90000;czas wykonania;2122,651815
+algorytm;counting sort;ilosc instancji;100000;czas wykonania;2700,636625
+algorytm;counting sort;ilosc instancji;100000;czas wykonania;2598,246336
+algorytm;counting sort;ilosc instancji;200000;czas wykonania;2657,894611
+algorytm;counting sort;ilosc instancji;300000;czas wykonania;2574,012995
+algorytm;counting sort;ilosc instancji;400000;czas wykonania;2642,027378
+algorytm;counting sort;ilosc instancji;500000;czas wykonania;2588,969707
+algorytm;counting sort;ilosc instancji;600000;czas wykonania;2608,677387
+algorytm;counting sort;ilosc instancji;700000;czas wykonania;2544,105291
+algorytm;counting sort;ilosc instancji;800000;czas wykonania;2609,951735
+algorytm;counting sort;ilosc instancji;900000;czas wykonania;2588,304996
+algorytm;counting sort;ilosc instancji;1000000;czas wykonania;2664,75749
+algorytm;counting sort;ilosc instancji;10000;czas wykonania;50,38762093
+algorytm;counting sort;ilosc instancji;20000;czas wykonania;154,5870304
+algorytm;counting sort;ilosc instancji;30000;czas wykonania;331,6226006
+algorytm;counting sort;ilosc instancji;40000;czas wykonania;684,1952801
+algorytm;counting sort;ilosc instancji;50000;czas wykonania;792,787075
+algorytm;counting sort;ilosc instancji;60000;czas wykonania;1053,247213
+algorytm;counting sort;ilosc instancji;70000;czas wykonania;1394,853354
+algorytm;counting sort;ilosc instancji;80000;czas wykonania;1791,588068
+algorytm;counting sort;ilosc instancji;90000;czas wykonania;2214,819431
+algorytm;counting sort;ilosc instancji;100000;czas wykonania;2714,075565
+algorytm;counting sort;ilosc instancji;100000;czas wykonania;2611,624241
+algorytm;counting sort;ilosc instancji;200000;czas wykonania;2567,506075
+algorytm;counting sort;ilosc instancji;300000;czas wykonania;2597,157001
+algorytm;counting sort;ilosc instancji;400000;czas wykonania;2625,117302
+algorytm;counting sort;ilosc instancji;500000;czas wykonania;2587,527514
+algorytm;counting sort;ilosc instancji;600000;czas wykonania;2614,1994
+algorytm;counting sort;ilosc instancji;700000;czas wykonania;2593,240023
+algorytm;counting sort;ilosc instancji;800000;czas wykonania;2597,987413
+algorytm;counting sort;ilosc instancji;900000;czas wykonania;3051,374912
+algorytm;counting sort;ilosc instancji;1000000;czas wykonania;2877,863646
+algorytm;counting sort;ilosc instancji;110000;czas wykonania;3116,542101
+algorytm;counting sort;ilosc instancji;220000;czas wykonania;2759,03821
+algorytm;counting sort;ilosc instancji;330000;czas wykonania;2699,024439
+algorytm;counting sort;ilosc instancji;440000;czas wykonania;2712,273836
+algorytm;counting sort;ilosc instancji;550000;czas wykonania;2692,88826
+algorytm;counting sort;ilosc instancji;660000;czas wykonania;2693,182468
+algorytm;counting sort;ilosc instancji;770000;czas wykonania;2719,367743
+algorytm;counting sort;ilosc instancji;880000;czas wykonania;2674,230099
+algorytm;counting sort;ilosc instancji;990000;czas wykonania;2721,395969
+algorytm;counting sort;ilosc instancji;1100000;czas wykonania;2712,822437
+algorytm;counting sort;ilosc instancji;110000;czas wykonania;3248,547554
+algorytm;counting sort;ilosc instancji;220000;czas wykonania;2787,397623
+algorytm;counting sort;ilosc instancji;330000;czas wykonania;2720,049858
+algorytm;counting sort;ilosc instancji;440000;czas wykonania;2728,678942
+algorytm;counting sort;ilosc instancji;550000;czas wykonania;2816,304922
+algorytm;counting sort;ilosc instancji;660000;czas wykonania;2656,444311
+algorytm;counting sort;ilosc instancji;770000;czas wykonania;2872,409821
+algorytm;counting sort;ilosc instancji;880000;czas wykonania;2732,455254
+algorytm;counting sort;ilosc instancji;990000;czas wykonania;2620,5194
+algorytm;counting sort;ilosc instancji;1100000;czas wykonania;2655,771494
+algorytm;counting sort;ilosc instancji;111000;czas wykonania;2538,744211
+algorytm;counting sort;ilosc instancji;222000;czas wykonania;2981,515169
+algorytm;counting sort;ilosc instancji;333000;czas wykonania;2824,663401
+algorytm;counting sort;ilosc instancji;444000;czas wykonania;2725,621223
+algorytm;counting sort;ilosc instancji;555000;czas wykonania;2724,43223
+algorytm;counting sort;ilosc instancji;666000;czas wykonania;2744,161367
+algorytm;counting sort;ilosc instancji;777000;czas wykonania;2708,941936
+algorytm;counting sort;ilosc instancji;888000;czas wykonania;2657,694578
+algorytm;counting sort;ilosc instancji;999000;czas wykonania;2561,772823
+algorytm;counting sort;ilosc instancji;1110000;czas wykonania;2618,790388
+algorytm;insert sort;ilosc instancji;1000;czas wykonania;42,8853035
+algorytm;insert sort;ilosc instancji;2000;czas wykonania;178,0903339
+algorytm;insert sort;ilosc instancji;3000;czas wykonania;404,9987793
+algorytm;insert sort;ilosc instancji;4000;czas wykonania;734,3928814
+algorytm;insert sort;ilosc instancji;5000;czas wykonania;1139,810562
+algorytm;insert sort;ilosc instancji;6000;czas wykonania;1674,153805
+algorytm;insert sort;ilosc instancji;7000;czas wykonania;2884,58848
+algorytm;insert sort;ilosc instancji;8000;czas wykonania;3446,642637
+algorytm;insert sort;ilosc instancji;9000;czas wykonania;3850,267649
+algorytm;insert sort;ilosc instancji;10000;czas wykonania;4970,279694
+algorytm;insert sort;ilosc instancji;10000;czas wykonania;4799,602509
+algorytm;insert sort;ilosc instancji;20000;czas wykonania;19581,13599
+algorytm;insert sort;ilosc instancji;10000;czas wykonania;5231,896639
+algorytm;insert sort;ilosc instancji;20000;czas wykonania;20870,0726
+algorytm;insert sort;ilosc instancji;30000;czas wykonania;45981,75383
+algorytm;insert sort;ilosc instancji;40000;czas wykonania;86197,2208
+algorytm;insert sort;ilosc instancji;50000;czas wykonania;142156,745
+algorytm;quicksort;ilosc instancji;100;czas wykonania;0
+algorytm;quicksort;ilosc instancji;1000;czas wykonania;1,996040344
+algorytm;quicksort;ilosc instancji;5000;czas wykonania;13,95988464
+algorytm;quicksort;ilosc instancji;10000;czas wykonania;26,91483498
+algorytm;quicksort;ilosc instancji;50000;czas wykonania;180,0181866
+algorytm;quicksort;ilosc instancji;75000;czas wykonania;317,2841072
+algorytm;quicksort;ilosc instancji;100000;czas wykonania;491,2261963
+algorytm;quicksort;ilosc instancji;100000;czas wykonania;542,8195
+algorytm;quicksort;ilosc instancji;200000;czas wykonania;501,1777878
+algorytm;quicksort;ilosc instancji;250000;czas wykonania;617,3498631
+algorytm;quicksort;ilosc instancji;300000;czas wykonania;514,2581463
+algorytm;quicksort;ilosc instancji;400000;czas wykonania;608,4091663
+algorytm;quicksort;ilosc instancji;500000;czas wykonania;547,9722023
+algorytm;quicksort;ilosc instancji;600000;czas wykonania;570,5099106
+algorytm;quicksort;ilosc instancji;700000;czas wykonania;512,4974251
+algorytm;quicksort;ilosc instancji;750000;czas wykonania;519,6313858
+algorytm;quicksort;ilosc instancji;800000;czas wykonania;495,3479767
+algorytm;quicksort;ilosc instancji;900000;czas wykonania;504,2603016
+algorytm;quicksort;ilosc instancji;1000000;czas wykonania;501,2991428
+algorytm;quicksort;ilosc instancji;100;czas wykonania;0
+algorytm;quicksort;ilosc instancji;1000;czas wykonania;1,966714859
+algorytm;quicksort;ilosc instancji;5000;czas wykonania;9,975910187
+algorytm;quicksort;ilosc instancji;10000;czas wykonania;27,92811394
+algorytm;quicksort;ilosc instancji;50000;czas wykonania;162,1983051
+algorytm;quicksort;ilosc instancji;75000;czas wykonania;325,1533508
+algorytm;quicksort;ilosc instancji;100000;czas wykonania;495,0661659
+algorytm;quicksort;ilosc instancji;100000;czas wykonania;588,6473656
+algorytm;quicksort;ilosc instancji;200000;czas wykonania;543,3647633
+algorytm;quicksort;ilosc instancji;250000;czas wykonania;601,634264
+algorytm;quicksort;ilosc instancji;300000;czas wykonania;500,6997585
+algorytm;quicksort;ilosc instancji;400000;czas wykonania;552,6444912
+algorytm;quicksort;ilosc instancji;500000;czas wykonania;552,5391102
+algorytm;quicksort;ilosc instancji;600000;czas wykonania;594,4120884
+algorytm;quicksort;ilosc instancji;700000;czas wykonania;548,0294228
+algorytm;quicksort;ilosc instancji;750000;czas wykonania;560,3365898
+algorytm;quicksort;ilosc instancji;800000;czas wykonania;541,0938263
+algorytm;quicksort;ilosc instancji;900000;czas wykonania;583,959341
+algorytm;quicksort;ilosc instancji;1000000;czas wykonania;516,9174671
+algorytm;quicksort;ilosc instancji;1000;czas wykonania;15,95711708
+algorytm;quicksort;ilosc instancji;2000;czas wykonania;3,99017334
+algorytm;quicksort;ilosc instancji;3000;czas wykonania;4,987955093
+algorytm;quicksort;ilosc instancji;4000;czas wykonania;19,95587349
+algorytm;quicksort;ilosc instancji;5000;czas wykonania;15,94543457
+algorytm;quicksort;ilosc instancji;6000;czas wykonania;16,95394516
+algorytm;quicksort;ilosc instancji;7000;czas wykonania;18,94783974
+algorytm;quicksort;ilosc instancji;8000;czas wykonania;18,94569397
+algorytm;quicksort;ilosc instancji;9000;czas wykonania;23,9379406
+algorytm;quicksort;ilosc instancji;10000;czas wykonania;26,92699432
+algorytm;quicksort;ilosc instancji;10000;czas wykonania;21,94190025
+algorytm;quicksort;ilosc instancji;20000;czas wykonania;49,89504814
+algorytm;quicksort;ilosc instancji;30000;czas wykonania;92,75388718
+algorytm;quicksort;ilosc instancji;40000;czas wykonania;113,6956215
+algorytm;quicksort;ilosc instancji;50000;czas wykonania;207,4460983
+algorytm;quicksort;ilosc instancji;60000;czas wykonania;216,5834904
+algorytm;quicksort;ilosc instancji;70000;czas wykonania;313,2171631
+algorytm;quicksort;ilosc instancji;80000;czas wykonania;356,0762405
+algorytm;quicksort;ilosc instancji;90000;czas wykonania;434,5800877
+algorytm;quicksort;ilosc instancji;100000;czas wykonania;540,1904583
+algorytm;quicksort;ilosc instancji;100000;czas wykonania;444,5171356
+algorytm;quicksort;ilosc instancji;200000;czas wykonania;498,3854294
+algorytm;quicksort;ilosc instancji;300000;czas wykonania;471,3859558
+algorytm;quicksort;ilosc instancji;400000;czas wykonania;482,7847481
+algorytm;quicksort;ilosc instancji;500000;czas wykonania;467,4835205
+algorytm;quicksort;ilosc instancji;600000;czas wykonania;477,1094322
+algorytm;quicksort;ilosc instancji;700000;czas wykonania;482,8131199
+algorytm;quicksort;ilosc instancji;800000;czas wykonania;526,5424252
+algorytm;quicksort;ilosc instancji;900000;czas wykonania;478,4421921
+algorytm;quicksort;ilosc instancji;1000000;czas wykonania;490,1969433
+algorytm;quicksort;ilosc instancji;1000;czas wykonania;1,993894577
+algorytm;quicksort;ilosc instancji;2000;czas wykonania;2,991676331
+algorytm;quicksort;ilosc instancji;3000;czas wykonania;3,963947296
+algorytm;quicksort;ilosc instancji;4000;czas wykonania;5,984067917
+algorytm;quicksort;ilosc instancji;5000;czas wykonania;8,977413177
+algorytm;quicksort;ilosc instancji;6000;czas wykonania;10,99801064
+algorytm;quicksort;ilosc instancji;7000;czas wykonania;21,94070816
+algorytm;quicksort;ilosc instancji;8000;czas wykonania;55,88388443
+algorytm;quicksort;ilosc instancji;9000;czas wykonania;22,9408741
+algorytm;quicksort;ilosc instancji;10000;czas wykonania;20,91789246
+algorytm;quicksort;ilosc instancji;10000;czas wykonania;24,93286133
+algorytm;quicksort;ilosc instancji;20000;czas wykonania;60,88757515
+algorytm;quicksort;ilosc instancji;10000;czas wykonania;21,94094658
+algorytm;quicksort;ilosc instancji;20000;czas wykonania;62,82377243
+algorytm;quicksort;ilosc instancji;30000;czas wykonania;82,70359039
+algorytm;quicksort;ilosc instancji;40000;czas wykonania;142,8501606
+algorytm;quicksort;ilosc instancji;50000;czas wykonania;164,8685932
+algorytm;quicksort;ilosc instancji;10000;czas wykonania;36,27252579
+algorytm;quicksort;ilosc instancji;20000;czas wykonania;50,83489418
+algorytm;quicksort;ilosc instancji;30000;czas wykonania;198,7495422
+algorytm;quicksort;ilosc instancji;40000;czas wykonania;377,1214485
+algorytm;quicksort;ilosc instancji;50000;czas wykonania;222,4187851
+algorytm;quicksort;ilosc instancji;60000;czas wykonania;301,7804623
+algorytm;quicksort;ilosc instancji;70000;czas wykonania;332,6189518
+algorytm;quicksort;ilosc instancji;80000;czas wykonania;497,8387356
+algorytm;quicksort;ilosc instancji;90000;czas wykonania;503,3502579
+algorytm;quicksort;ilosc instancji;100000;czas wykonania;659,1024399
+algorytm;quicksort;ilosc instancji;100000;czas wykonania;450,7961273
+algorytm;quicksort;ilosc instancji;200000;czas wykonania;614,4163609
+algorytm;quicksort;ilosc instancji;300000;czas wykonania;529,8612118
+algorytm;quicksort;ilosc instancji;400000;czas wykonania;583,9574337
+algorytm;quicksort;ilosc instancji;500000;czas wykonania;520,6084251
+algorytm;quicksort;ilosc instancji;600000;czas wykonania;599,9581814
+algorytm;quicksort;ilosc instancji;700000;czas wykonania;521,4898586
+algorytm;quicksort;ilosc instancji;800000;czas wykonania;698,1925964
+algorytm;quicksort;ilosc instancji;900000;czas wykonania;650,6242752
+algorytm;quicksort;ilosc instancji;1000000;czas wykonania;1021,688223
+algorytm;quicksort;ilosc instancji;110000;czas wykonania;1056,37908
+algorytm;quicksort;ilosc instancji;220000;czas wykonania;580,4488659
+algorytm;quicksort;ilosc instancji;330000;czas wykonania;588,4456635
+algorytm;quicksort;ilosc instancji;440000;czas wykonania;604,4378281
+algorytm;quicksort;ilosc instancji;550000;czas wykonania;756,8016052
+algorytm;quicksort;ilosc instancji;660000;czas wykonania;700,6406784
+algorytm;quicksort;ilosc instancji;770000;czas wykonania;609,4033718
+algorytm;quicksort;ilosc instancji;880000;czas wykonania;620,2383041
+algorytm;quicksort;ilosc instancji;990000;czas wykonania;659,6374512
+algorytm;quicksort;ilosc instancji;1100000;czas wykonania;603,405714
+algorytm;quicksort;ilosc instancji;110000;czas wykonania;582,3924541
+algorytm;quicksort;ilosc instancji;220000;czas wykonania;671,2329388
+algorytm;quicksort;ilosc instancji;330000;czas wykonania;664,9856567
+algorytm;quicksort;ilosc instancji;440000;czas wykonania;611,5794182
+algorytm;quicksort;ilosc instancji;550000;czas wykonania;535,0394249
+algorytm;quicksort;ilosc instancji;660000;czas wykonania;525,1941681
+algorytm;quicksort;ilosc instancji;770000;czas wykonania;594,9809551
+algorytm;quicksort;ilosc instancji;880000;czas wykonania;539,586544
+algorytm;quicksort;ilosc instancji;990000;czas wykonania;659,2729092
+algorytm;quicksort;ilosc instancji;1100000;czas wykonania;557,0623875
+algorytm;quicksort;ilosc instancji;111000;czas wykonania;467,2644138
+algorytm;quicksort;ilosc instancji;222000;czas wykonania;920,8891392
+algorytm;quicksort;ilosc instancji;333000;czas wykonania;684,4792366
+algorytm;quicksort;ilosc instancji;444000;czas wykonania;625,7367134
+algorytm;quicksort;ilosc instancji;555000;czas wykonania;649,2652893
+algorytm;quicksort;ilosc instancji;666000;czas wykonania;718,3384895
+algorytm;quicksort;ilosc instancji;777000;czas wykonania;860,9721661
+algorytm;quicksort;ilosc instancji;888000;czas wykonania;523,6110687
+algorytm;quicksort;ilosc instancji;999000;czas wykonania;534,2476368
+algorytm;quicksort;ilosc instancji;1110000;czas wykonania;490,4091358

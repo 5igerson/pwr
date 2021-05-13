@@ -1,0 +1,7 @@
+algorytm;counting sort;ilosc instancji;500000;czas wykonania;138.39435577392578
+algorytm;quicksort;ilosc instancji;500000;czas wykonania;6187.434673309326
+algorytm;quicksort;ilosc instancji;600000;czas wykonania;9625.312805175781
+algorytm;quicksort;ilosc instancji;700000;czas wykonania;13493.72935295105
+algorytm;quicksort;ilosc instancji;800000;czas wykonania;17082.401990890503
+algorytm;quicksort;ilosc instancji;900000;czas wykonania;22374.995231628418
+algorytm;quicksort;ilosc instancji;1000000;czas wykonania;26551.787614822388

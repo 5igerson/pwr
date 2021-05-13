@@ -2,10 +2,11 @@ import numpy as np
 from scipy.misc import derivative
 from math import sin
 from math import log10
+from timeit import default_timer
 
 #definicja funkcji i wprowadzanie parametrow
 def reg_falsi(f,a,b,tolerancja=1E-9,iteracje=100):
-
+    start=default_timer()
     #sprawdzamy czy wartosci przecinaja os OX
     if f(a)*f(b)<0:
         #petla wykonuje sie tyle razy ile ustalono iteracji
@@ -23,16 +24,16 @@ def reg_falsi(f,a,b,tolerancja=1E-9,iteracje=100):
                 #jesli rzedna ma znak przeciwny do f(xi) to za a podstawiamy wartosc xi
                 a=xi
     else:
-        print("brak rozwiazan (moze jest wiecej niz jedno rozwiazanie)")
+        print("Brak rozwiazan (moze jest wiecej niz jedno rozwiazanie)")
         iter=0
         xi=0
-
-    return xi,iter
+    stop=default_timer()
+    return xi,iter,stop-start
 
 #wprowadzanie przedzialu 
-print("Prosze wprowadzic przedzial")
-a=float(input("wprowadz wartosc a: "))
-b=float(input("wprowadz wartosc b: "))
+print("Prosze wprowaadzic przedzial")
+a=float(input("Wprowadz wartosc a: "))
+b=float(input("Wprowadz wartosc b: "))
 
 #pierwsza funkcja podana przez prowadzacego
 funkcja=lambda x: -sin(x)**2+log10(x)
@@ -41,7 +42,8 @@ funkcja=lambda x: -sin(x)**2+log10(x)
 #funkcja=lambda x: x**2-sin(x)+log10(x)
 
 #wykonaj zadeklarowana funkcje i zwroc wartosc rozwiazania i ilosc iteracji
-rozwiazanie,iteracja=reg_falsi(funkcja,a,b)
-print("rozwiazanie wynosi: ",rozwiazanie)
-print("wykonano %d iteracji" %iteracja)
+rozwiazanie,iteracja,czas_wykonania=reg_falsi(funkcja,a,b)
+print("Rozwiazanie wynosi: ",rozwiazanie)
+print("Wykonano %d iteracji" %iteracja)
+print("Czas wykonania operacji wynosi: %.7f s" %czas_wykonania)
 

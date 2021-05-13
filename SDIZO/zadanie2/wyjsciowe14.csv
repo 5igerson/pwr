@@ -1,0 +1,18 @@
+algorytm;counting sort;ilosc instancji;100;czas wykonania;0.9827613830566406
+algorytm;quicksort;ilosc instancji;100;czas wykonania;0.0
+algorytm;counting sort;ilosc instancji;200;czas wykonania;1.9898414611816406
+algorytm;quicksort;ilosc instancji;200;czas wykonania;1.9621849060058594
+algorytm;counting sort;ilosc instancji;300;czas wykonania;2.9439926147460938
+algorytm;quicksort;ilosc instancji;300;czas wykonania;3.89862060546875
+algorytm;counting sort;ilosc instancji;400;czas wykonania;2.974987030029297
+algorytm;quicksort;ilosc instancji;400;czas wykonania;6.868124008178711
+algorytm;counting sort;ilosc instancji;500;czas wykonania;3.9222240447998047
+algorytm;quicksort;ilosc instancji;500;czas wykonania;13.739585876464844
+algorytm;counting sort;ilosc instancji;600;czas wykonania;3.9277076721191406
+algorytm;quicksort;ilosc instancji;600;czas wykonania;17.66371726989746
+algorytm;counting sort;ilosc instancji;700;czas wykonania;5.887746810913086
+algorytm;quicksort;ilosc instancji;700;czas wykonania;21.588563919067383
+algorytm;counting sort;ilosc instancji;800;czas wykonania;5.887508392333984
+algorytm;quicksort;ilosc instancji;800;czas wykonania;27.477025985717773
+algorytm;counting sort;ilosc instancji;900;czas wykonania;6.871461868286133
+algorytm;quicksort;ilosc instancji;900;czas wykonania;35.29763221740723

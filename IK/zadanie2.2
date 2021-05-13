@@ -1,0 +1,50 @@
+#include <wiringPi.h>
+#include <wiringPiI2C.h>
+#include <softPwm.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <unistd.h>
+
+int main (void)
+{
+printf("Praca studentow: 241818 oraz 249162 - 10.04.2021");
+//inicjacja potrzebnych zmiennych
+int fd;
+int adressMPU6050=0x69;
+int dane[2];
+
+if(wiringPiSetup() == -1)
+exit(1);
+if((fd=wiringPiI2CSetup(adressMPU6050)) == -1){
+printf("error initialize I2C");
+exit(1);
+}
+printf("I2C modul MPU6050\r\n");
+
+//Uruchamia pomiary
+int regPWR=0x68; //<<---- podaæ adres rejestru PWR_MGMT_1
+wiringPiI2CWriteReg8(fd, regPWR, 0);
+//petla umozliwi odczyt temperatury kilka razy
+for(int i=0;i<5;i++)
+    {
+
+//podawanie adresow rejestrów 
+int TEMP_OUT_H=0x41; //TEMP_OUT_H
+int TEMP_OUT_L=0x42; //TEMP_OUT_L
+
+//odczytywanie wartosci z rejestrow
+dane[0] = wiringPiI2CReadReg8(fd,TEMP_OUT_H); //TEMP_OUT_H
+dane[1] = wiringPiI2CReadReg8(fd,TEMP_OUT_L); //TEMP_OUT_L
+
+//połączenie wartości zawartych w rejestrach 
+int16_t RAW_TEMP=(dane[0]<<8)|dane[1];
+
+//przeliczanie wartosci odczytanych na stopnie celsjusza
+float temperatura=RAW_TEMP/340.0f+36.53f;
+
+printf("temperatura pomiar nr %d: %f stopni Celsjusza\r\n",i+1,temperatura);
+sleep(2);//dzieki zastosowaniu funkcji sleep bedzie mozna odczytac wartosc temperatury co 2 sekundy
+    }
+return 0;
+}

@@ -1,0 +1,96 @@
+#include <stdio.h>
+#include <wiringPi.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <wiringPiI2C.h>
+
+#define _CRT_SECURE_NO_WARNINGS
+
+void get_date_time(int fd)
+{
+//definiowanie zmiennych z adresami 
+int secadd=0x00;
+int minadd=0x01;
+int houradd=0x02;
+int dayadd=0x04;
+int monthadd=0x05;
+int yearadd=0x06;
+
+//pobieranie wartosci z rejestru
+__uint8_t secr = wiringPiI2CReadReg8(fd,secadd);
+__uint8_t minr = wiringPiI2CReadReg8(fd,minadd);
+__uint8_t hourr = wiringPiI2CReadReg8(fd,houradd);
+__uint8_t dayr = wiringPiI2CReadReg8(fd,dayadd);
+__uint8_t monthr = wiringPiI2CReadReg8(fd,monthadd);
+__uint8_t yearr = wiringPiI2CReadReg8(fd,yearadd);
+
+//wzor do przeksztalcenia wartosci z danych typu raw na int
+int sec=((secr>>4)*10+(secr&0x0F));
+int min=((minr>>4)*10+(minr&0x0F));
+int hour=((hourr>>4)*10+(hourr&0x0F));
+int day=((dayr>>4)*10+(dayr&0x0F));
+int month=((monthr>>4)*10+(monthr&0x0F));
+int year=((yearr>>4)*10+(yearr&0x0F));
+
+//wyswietlanie daty i godziny
+printf("obecna data: 20%d-%d-%d %d:%d:%d\n",year,month,day,hour,min,sec);
+}
+
+void save_date_time(int fd)
+{
+int secadd=0x00;
+int minadd=0x01;
+int houradd=0x02;
+int dayadd=0x04;
+int monthadd=0x05;
+int yearadd=0x06;
+
+int year,month,day,hour,min,sec;
+
+//pobieranie nowej daty i godziny od uzytkownika
+printf("podaj nowa date: (w formacie yy-mm-dd)\n");
+scanf("%d-%d-%d",&year,&month,&day);
+
+printf("podaj nowa godzine: (w formacie hh:mm:ss)\n");
+scanf("%d:%d:%d",&hour,&min,&sec);
+
+//pokazywanie nowej daty uzytkownikowi
+//printf("nowa data: 20%d-%d-%d %d:%d:%d\n",year,month,day,hour,min,sec);
+//konwersja wartosci na typ w jakim dane beda przechowywane w rejestrach
+year=((year/10)<<4|(year%10));
+month=((month/10)<<4|(month%10));
+day=((day/10)<<4|(day%10));
+hour=((hour/10)<<4|(hour%10));
+min=((min/10)<<4|(min%10));
+sec=((sec/10)<<4|(sec%10));
+
+//zapisywanie wartosci w rejestrach
+wiringPiI2CWriteReg8(fd,secadd,sec);
+wiringPiI2CWriteReg8(fd,minadd,min);
+wiringPiI2CWriteReg8(fd,houradd,hour);
+wiringPiI2CWriteReg8(fd,dayadd,day);
+wiringPiI2CWriteReg8(fd,monthadd,month);
+wiringPiI2CWriteReg8(fd,yearadd,year);
+}
+
+int main()
+{
+    printf("Praca studentow: 241818 oraz 249162 - 18.04.2021\n");
+
+int fd;
+int adressRTC=0x68;
+
+if(wiringPiSetup() == -1)
+exit(1);
+
+if((fd=wiringPiI2CSetup(adressRTC)) == -1){
+printf("error initialize I2C");
+exit(1);
+}
+
+get_date_time(fd);
+save_date_time(fd);
+get_date_time(fd);
+
+return 0;
+}
